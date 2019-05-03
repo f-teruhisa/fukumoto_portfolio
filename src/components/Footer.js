@@ -1,9 +1,8 @@
-
 import React from 'react'
 
 const Footer = () => (
   <footer className="footer">
-    Teruhisa Fukumoto
+    (C) 2019 Sinhalite.
   </footer>
 );
 

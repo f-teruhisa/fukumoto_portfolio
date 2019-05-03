@@ -62,11 +62,9 @@
   #navi-box {
     width: 450px;
   }
-
   #navi a {
     width: 150px;
   }
-
   #navi a:nth-child(3) {
     border-right: 2px solid #eee;
   }
@@ -76,11 +74,9 @@
   #navi-box {
     width: 300px;
   }
-
   #navi a {
     width: 50%;
   }
-
   #navi a:nth-child(even) {
     border-right: 2px solid #eee;
   }

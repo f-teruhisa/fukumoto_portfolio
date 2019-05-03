@@ -1,6 +1,6 @@
 import React from 'react';
-import MachineLearning from './Works/MachineLearning';
-import Application from './Works/Application';
+import MachineLearning from '../Works/MachineLearning';
+import Application from '../Works/Application';
 
 const Works = () => (
   <div id="works">
