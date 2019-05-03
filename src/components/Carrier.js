@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Carrier = () => (
+const Slides = () => (
   <React.Fragment>
-    <h2>Carrer</h2>
+    <h2>Slides</h2>
     ・2011〜2015<br />
     都内の私大文系
     <br /><br />
@@ -12,4 +12,4 @@ const Carrier = () => (
   </React.Fragment>
 );
 
-export default Carrier;
+export default Slides;
