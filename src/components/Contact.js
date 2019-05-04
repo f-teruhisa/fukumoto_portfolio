@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Certification = () => (
+const Contact = () => (
   <React.Fragment>
     <h2>Certification</h2>
     <ul>
@@ -11,4 +11,4 @@ const Certification = () => (
   </React.Fragment>
 );
 
-export default Certification;
+export default Contact;
