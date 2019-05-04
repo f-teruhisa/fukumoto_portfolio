@@ -1,5 +1,4 @@
 import React from 'react';
-import MachineLearning from '../Works/MachineLearning';
 import Application from '../Works/Application';
 
 const Works = () => (
@@ -7,7 +6,6 @@ const Works = () => (
     <h2>Works</h2>
     プライベートでの開発アウトプット一覧
     <Application />
-    <MachineLearning />
   </div>
 );
 
