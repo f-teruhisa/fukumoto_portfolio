@@ -61,7 +61,7 @@ class ScrollDialog extends React.Component {
           </DialogActions>
         </Dialog>
         <br />
-        <Button onClick={this.handleClickOpen('paper')} style={{ backgroundColor: 'rgb(202, 241, 228)' }}>>> 詳しく見る</Button>
+        <Button onClick={this.handleClickOpen('paper')} style={{ backgroundColor: '#4173B3', color: "#fff" }}>>> 詳しく見る</Button>
       </div >
     );
   }
