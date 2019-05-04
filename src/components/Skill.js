@@ -39,7 +39,7 @@ const Skill = () => (
         <li>PM：<a href="https://medium.com/@teruhisafukumoto/%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC%E3%81%AF-%E8%87%AA%E5%88%86%E9%81%94%E3%81%8C-%E9%A0%AD%E3%81%8C%E3%81%84%E3%81%84-%E3%81%93%E3%81%A8%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84-97eaa0d1dc79">『プロダクトマネージャーは、自分達が「頭がいい」ことを理解しなければならない』</a></li>
         <li>PM：<a href="https://qiita.com/Terryy/items/b3a26517b584cdbec70d">『小さな会社のPMになったあなたへ』</a></li>
         <li>PM：<a href="https://medium.com/@teruhisafukumoto/evernote%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%80%E3%83%A1%E3%81%AA%E3%81%AE%E3%81%8B-78b5034a8c5a">『Evernoteはなぜダメなのか』</a></li>
-        <li>PM：<a href="https://tech.zeals.co.jp/entry/2019/02/12/125841">『元トレタCTOの増井さんと語る、ZEALSのチャットボットプロダクト『fanp』のすべて（前編）』</a></li>
+        <li>PM：<a href="https://tech.zeals.co.jp/entry/2019/02/12/125841">『元トレタCTOの増井さんと語る、ZEALSのチャットボットプロダクト『fanp』のすべて』</a></li>
       </ul>
   </React.Fragment>
 );

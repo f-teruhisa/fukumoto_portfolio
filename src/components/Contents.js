@@ -5,7 +5,7 @@ import Profile from './Profile';
 import Works from "./Works";
 import Community from './Community';
 import Skill from './Skill'
-import Certification from './Certification'
+import Contact from './Contact'
 import Links from './Link'
 
 const Contents = () => (
@@ -16,8 +16,8 @@ const Contents = () => (
           <Link to="/">Profile</Link>
           <Link to="/works">Works</Link>
           <Link to="/skill">Skill</Link>
-          <Link to="/certification">Certification</Link>
           <Link to="/community">Community</Link>
+          <Link to="/contact">Contact</Link>
           <Link to="/links">Links</Link>
         </div>
       </div>
@@ -25,8 +25,8 @@ const Contents = () => (
         <Route exact path='/' component={Profile} />
         <Route exact path='/works' component={Works} />
         <Route exact path='/skill' component={Skill} />
-        <Route exact path='/certification' component={Certification} />
         <Route exact path='/community' component={Community} />
+        <Route exact path='/contact' component={Contact} />
         <Route exact path='/links' component={Links} />
       </div>
     </React.Fragment>
