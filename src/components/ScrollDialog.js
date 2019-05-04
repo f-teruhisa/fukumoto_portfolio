@@ -50,7 +50,7 @@ class ScrollDialog extends React.Component {
               関連リンク
                 <ul>
                 {this.props.url && <li><a href={this.props.url} target="_blank">サイトを見る</a></li>}
-                <li><a href={"https://qiita.com/Sinhalite/items/" + this.props.qiita} target="_blank">Qiita</a></li>
+                <li><a href={"https://github.com/f-teruhisa/" + this.props.github} target="_blank">Github</a></li>
               </ul>
             </DialogContentText>
           </DialogContent>

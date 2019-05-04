@@ -5,7 +5,7 @@ import Application from '../Works/Application';
 const Works = () => (
   <div id="works">
     <h2>Works</h2>
-    私が今までに個人で作成したプログラムを紹介します。
+    プライベートでの開発アウトプット一覧
     <Application />
     <MachineLearning />
   </div>
