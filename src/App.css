@@ -1,28 +1,49 @@
 .App {
-  font-family: 'Oxygen';
   line-height: 1.5em;
   text-align: center;
+  font-family: 'Gothic MB101 Light',
+  'Hiragino Kaku Gothic W3 JIS2004',
+  'メイリオ',
+  'Meiryo',
+  'Verdana',
+  'ＭＳＰゴシック',
+  'sans-serif';
 }
 
 .App-header {
-  background-color: #222;
-  border-bottom: 2px solid rgb(202, 241, 228);
+  background-color: #444;
+  border-bottom: 2px solid #fff;
   height: 100px;
   padding: 20px;
   color: white;
 }
 
 .footer {
-  background-color: #222;
+  background-color: #444;
   color: white;
   height: 50px;
   line-height: 50px;
   margin-top: 50px;
+  font-family: 'Gothic MB101 Light',
+  'Hiragino Kaku Gothic W3 JIS2004',
+  'メイリオ',
+  'Meiryo',
+  'Verdana',
+  'ＭＳＰゴシック',
+  'sans-serif';
 }
 
 .App-title {
   font-size: 2.4em;
   line-height: 100px;
+  font-family:
+    'Gothic MB101 Light',
+    'Hiragino Kaku Gothic W3 JIS2004',
+    'メイリオ',
+    'Meiryo',
+    'Verdana',
+    'ＭＳＰゴシック',
+    'sans-serif';
 }
 
 @media screen and (max-width: 480px) {
@@ -32,18 +53,32 @@
 }
 
 #contents h2 {
+  font-family: 'Gothic MB101 Light',
+  'Hiragino Kaku Gothic W3 JIS2004',
+  'メイリオ',
+  'Meiryo',
+  'Verdana',
+  'ＭＳＰゴシック',
+  'sans-serif';
   font-size: 1.8em;
   margin: 30px 0 10px;
   padding-bottom: 5px;
-  border-bottom: 3px solid rgb(202, 241, 228);
+  border-bottom: 3px solid #4173B3;
 }
 
 #contents h3 {
+  font-family: 'Gothic MB101 Light',
+  'Hiragino Kaku Gothic W3 JIS2004',
+  'メイリオ',
+  'Meiryo',
+  'Verdana',
+  'ＭＳＰゴシック',
+  'sans-serif';
   margin: 20px 0 5px;
 }
 
 #navi {
-  background-color: #aee0e4;
+  background-color: #4173B3;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,8 +88,15 @@
   display: inline-block;
   width: 120px;
   padding: 10px;
-  border-left: 2px solid #eee;
-  color: #333;
+  border-left: 2px solid #fff;
+  color: #fff;
+  font-family: 'Gothic MB101 Light',
+  'Hiragino Kaku Gothic W3 JIS2004',
+  'メイリオ',
+  'Meiryo',
+  'Verdana',
+  'ＭＳＰゴシック',
+  'sans-serif';
   box-sizing: border-box;
 }
 
@@ -66,7 +108,7 @@
     width: 150px;
   }
   #navi a:nth-child(3) {
-    border-right: 2px solid #eee;
+    border-right: 2px solid #fff;
   }
 }
 
@@ -78,23 +120,23 @@
     width: 50%;
   }
   #navi a:nth-child(even) {
-    border-right: 2px solid #eee;
+    border-right: 2px solid #fff;
   }
 }
 
 #navi a:hover {
-  background-color: white;
+  background-color: #aee0e4;
 }
 
 #navi a:last-child {
-  border-right: 2px solid #eee;
+  border-right: 2px solid #fff;
 }
 
 .card {
   width: 300px;
   padding: 10px;
   margin: 10px 10px;
-  border: 2px solid #eeeeee;
+  border: 2px solid #fff;
 }
 
 .card img {
@@ -110,6 +152,7 @@ ul {
   margin: 0 auto;
   padding: 0 30px;
   text-align: left;
+  font-family: 'Source Sans Pro';
 }
 
 @media screen and (max-width: 480px) {
@@ -126,5 +169,25 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(16, 172, 120);
+  color: #4173B3;
+  font-family:
+    'Gothic MB101 Light',
+    'Hiragino Kaku Gothic W3 JIS2004',
+    'メイリオ',
+    'Meiryo',
+    'Verdana',
+    'ＭＳＰゴシック',
+    'sans-serif';
+}
+
+p {
+  font-family:
+    'Gothic MB101 Light',
+    'Hiragino Kaku Gothic W3 JIS2004',
+    'メイリオ',
+    'Meiryo',
+    'Verdana',
+    'ＭＳＰゴシック',
+    'sans-serif';
+  font-weight: 400;
 }
