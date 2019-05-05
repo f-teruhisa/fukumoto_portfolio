@@ -137,6 +137,15 @@
   padding: 10px;
   margin: 10px 10px;
   border: 2px solid #fff;
+  font-family:
+    'Gothic MB101 Light',
+    'Hiragino Kaku Gothic W3 JIS2004',
+    'メイリオ',
+    'Meiryo',
+    'Verdana',
+    'ＭＳＰゴシック',
+    'sans-serif';
+  font-weight: 400;
 }
 
 .card img {
@@ -145,6 +154,27 @@
 
 ul {
   margin: 5px;
+  font-family:
+    'Gothic MB101 Light',
+    'Hiragino Kaku Gothic W3 JIS2004',
+    'メイリオ',
+    'Meiryo',
+    'Verdana',
+    'ＭＳＰゴシック',
+    'sans-serif';
+  font-weight: 400;
+}
+
+li {
+  font-family:
+    'Gothic MB101 Light',
+    'Hiragino Kaku Gothic W3 JIS2004',
+    'メイリオ',
+    'Meiryo',
+    'Verdana',
+    'ＭＳＰゴシック',
+    'sans-serif';
+  font-weight: 400;
 }
 
 #contents {
@@ -180,7 +210,7 @@ a {
     'sans-serif';
 }
 
-p {
+p, span, text {
   font-family:
     'Gothic MB101 Light',
     'Hiragino Kaku Gothic W3 JIS2004',

@@ -4,7 +4,7 @@ import Application from '../Works/Application';
 const Works = () => (
   <div id="works">
     <h2>Works</h2>
-    プライベートでの開発アウトプット一覧
+    <p>プライベートでの開発アウトプット一覧</p>
     <Application />
   </div>
 );
