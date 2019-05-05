@@ -39,7 +39,7 @@ class ScrollDialog extends React.Component {
             <DialogContentText>
               {this.props.description}
               <br />
-              使用技術
+              Dependency
                 <ul>
                 {this.props.techs.map((tech, index) => {
                   return (
@@ -47,21 +47,21 @@ class ScrollDialog extends React.Component {
                   )
                 })}
               </ul>
-              関連リンク
+              Links
                 <ul>
-                {this.props.url && <li><a href={this.props.url} target="_blank" rel="noopener noreferrer">サイトを見る</a></li>}
+                {this.props.url && <li><a href={this.props.url} target="_blank" rel="noopener noreferrer">Visit Site</a></li>}
                 <li><a href={"https://github.com/f-teruhisa/" + this.props.github} target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
             </DialogContentText>
           </DialogContent>
           <DialogActions>
             <Button onClick={this.handleClose} color="primary">
-              閉じる
+              Close
             </Button>
           </DialogActions>
         </Dialog>
         <br />
-        <Button onClick={this.handleClickOpen('paper')} style={{ backgroundColor: '#4173B3', color: "#fff" }}>>> 詳しく見る</Button>
+        <Button onClick={this.handleClickOpen('paper')} style={{ backgroundColor: '#4173B3', color: "#fff" }}>>> Detail</Button>
       </div >
     );
   }

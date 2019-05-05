@@ -16,16 +16,21 @@ const Skill = () => (
         <li>Node.js [Private]</li>
         <li>AWS [Private]</li>
         <li>Firebase [Private]</li>
-      </ul>
+    </ul>
+    <h2>API</h2>
+    <ul>
+      <li>Facebook Messenger Platform</li>
+      <li>LINE Messaging API</li>
+    </ul>
     <h2>Management</h2>
       <ul>
         <li>Product Management</li>
+        <li>Engineering Management</li>
         <li>1on1</li>
         <li>OKR</li>
         <li>Engineer Evaluation</li>
         <li>Organization Planning</li>
         <li>Project Management</li>
-        <li>People & Talent Management</li>
       </ul>
     <h2>Presentation</h2>
       <ul>
