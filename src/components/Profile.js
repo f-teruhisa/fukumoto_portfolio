@@ -2,11 +2,11 @@ import React from 'react';
 
 const Profile = () => (
   <div id="profile">
-    <h2>福本 晃之 [ Teruhisa Fukumoto ]</h2>
+    <h2>福本 晃之[Teruhisa Fukumoto]</h2>
     <div className="bio">
       <p>
-        Job： VPoE & Enginner<br />
-        Birth： 1992/03/24<br />
+        Job：VPoE & Enginner<br />
+        Birth：1992/03/24<br />
       </p>
       <p>
         1992年兵庫県出身。<br />
