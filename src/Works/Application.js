@@ -9,7 +9,7 @@ const Application = () => (
         title = "ランダムランチ管理アプリ[QuartZ]"
         img="quartz.png"
         techs={["Ruby", "Rails", "AWS", "MySQL", "bootstrap", "rspec"]}
-        url="http://quart-z.herokuapp.com/"
+        url="https://quart-z.com/"
         github="QuartZ"
         description={
           <span>
