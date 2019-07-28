@@ -28,6 +28,7 @@ const Links = () => (
 
     <h2>Hobby</h2>
     <ul>
+      <li>Book Memo：<a href="https://scrapbox.io/teruhisa/">Scrapbox(Teruhisa Fukumoto)</a></li>
       <li>bookmeter：<a href="https://bookmeter.com/users/629901">Teruhisa Fukumoto</a></li>
       <li>filmarks：<a href="https://filmarks.com/users/teruid">TeruFukumoto</a></li>
       <li>NewsPicks：<a href="https://newspicks.com/user/613311">福本 晃之</a></li>
