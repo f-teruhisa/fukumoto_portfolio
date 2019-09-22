@@ -3,35 +3,36 @@ import React from 'react';
 const Skill = () => (
   <React.Fragment>
     <h2>Development</h2>
-      <ul>
-        <li>Ruby</li>
-        <li>Rails</li>
-        <li>Python</li>
-        <li>HTML</li>
-        <li>CSS3</li>
-        <li>Git</li>
-        <li>Flask [Private]</li>
-        <li>JavaScript(ES6)</li>
-        <li>Vue.js</li>
-        <li>React.js[Private]</li>
-        <li>Node.js [Private]</li>
-        <li>AWS [Private]</li>
-        <li>Firebase [Private]</li>
+    <ul>
+      <li>Ruby</li>
+      <li>Rails</li>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Git</li>
+      <li>Flask [Private]</li>
+      <li>JavaScript(ES6)</li>
+      <li>Vue.js</li>
+      <li>React.js[Private]</li>
+      <li>Node.js [Private]</li>
+      <li>Google App Script</li>
+      <li>AWS [Private]</li>
+      <li>Firebase [Private]</li>
     </ul>
     <h2>API</h2>
     <ul>
       <li>Facebook Messenger Platform</li>
       <li>LINE Messaging API</li>
+      <li>Slack bot API</li>
     </ul>
-    <h2>Management</h2>
-      <ul>
-        <li>Product Management</li>
-        <li>Engineering Management</li>
-        <li>1on1</li>
-        <li>OKR</li>
-        <li>Engineer Evaluation</li>
-        <li>Organization Planning</li>
-        <li>Project Management</li>
+    <h2>Others</h2>
+    <ul>
+      <li>Engineering Management</li>
+      <li>Product Management</li >
+      <li>Developer Relations</li>
+      <li>Technical Recruiter</li>
+      <li>Project Management</li>
+      <li>Human Resouces</li>
       </ul>
     <h2>Presentation</h2>
     <ul>
