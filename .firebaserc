@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fukumoto-portfolio"
+    "default": "fukumoto-portfolio",
+    "no": "react-firebase-sign-up",
+    "portfolio": "fukumoto-portfolio"
   }
 }
