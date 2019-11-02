@@ -22,16 +22,6 @@ const Community = () => (
     ・Github Organization：<a href='https://github.com/gotandajs'>https://github.com/gotandajs</a><br />
     ・Community Page：<a href='https://gotanda.js.org/'>https://gotanda.js.org/</a><br />
     </p>
-
-    <h3>Facebook Developer Circle Tokyo[Organizer]</h3>
-    <p>
-    期間：2019/1 ~<br />
-    Facebook公式の開発者コミュニティ『Developer Circle』東京支部。< br />
-    日本では先に大阪支部が存在していたが、2019年1月に東京支部がローンチ。< br />
-    Facebookが提供するAPIやツールを盛り上げるため、イベントやハッカソンの開催を行う。< br />
-    ・Github Organization：<a href='https://github.com/devctokyo/Organizers'>https://github.com/devctokyo/Organizers</a><br />
-    ・Community Page：<a href='https://www.facebook.com/groups/DevCTokyo/'>https://www.facebook.com/groups/DevCTokyo/</a><br />
-    </p>
   </React.Fragment>
 );
 

@@ -8,6 +8,8 @@
   'Verdana',
   'ＭＳＰゴシック',
   'sans-serif';
+  color: rgba(0,0,0,.87);
+  -webkit-font-smoothing: antialiased;
 }
 
 .App-header {
@@ -31,6 +33,7 @@
   'Verdana',
   'ＭＳＰゴシック',
   'sans-serif';
+  -webkit-font-smoothing: antialiased;
 }
 
 .App-title {
@@ -44,6 +47,7 @@
     'Verdana',
     'ＭＳＰゴシック',
     'sans-serif';
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (max-width: 480px) {
@@ -64,6 +68,8 @@
   margin: 30px 0 10px;
   padding-bottom: 5px;
   border-bottom: 3px solid #4173B3;
+  color: rgba(0,0,0,.87);
+  -webkit-font-smoothing: antialiased;
 }
 
 #contents h3 {
@@ -74,6 +80,8 @@
   'Verdana',
   'ＭＳＰゴシック',
   'sans-serif';
+  color: rgba(0,0,0,.87);
+  -webkit-font-smoothing: antialiased;
   margin: 20px 0 5px;
 }
 
@@ -97,6 +105,7 @@
   'Verdana',
   'ＭＳＰゴシック',
   'sans-serif';
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
 
@@ -146,6 +155,7 @@
     'ＭＳＰゴシック',
     'sans-serif';
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 .card img {
@@ -163,6 +173,7 @@ ul {
     'ＭＳＰゴシック',
     'sans-serif';
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 li {
@@ -175,6 +186,7 @@ li {
     'ＭＳＰゴシック',
     'sans-serif';
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 #contents {
@@ -182,7 +194,15 @@ li {
   margin: 0 auto;
   padding: 0 30px;
   text-align: left;
-  font-family: 'Source Sans Pro';
+  font-family: 
+    'Gothic MB101 Light',
+    'Hiragino Kaku Gothic W3 JIS2004',
+    'メイリオ',
+    'Meiryo',
+    'Verdana',
+    'ＭＳＰゴシック',
+    'sans-serif';
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (max-width: 480px) {
@@ -195,6 +215,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -208,16 +229,16 @@ a {
     'Verdana',
     'ＭＳＰゴシック',
     'sans-serif';
+    -webkit-font-smoothing: antialiased;
 }
 
 p, span, text {
-  font-family:
-    'Gothic MB101 Light',
-    'Hiragino Kaku Gothic W3 JIS2004',
-    'メイリオ',
-    'Meiryo',
-    'Verdana',
-    'ＭＳＰゴシック',
-    'sans-serif';
-  font-weight: 400;
+  font-family: 'Gothic MB101 Light',
+  'Hiragino Kaku Gothic W3 JIS2004',
+  'メイリオ',
+  'Meiryo',
+  'Verdana',
+  'ＭＳＰゴシック',
+  'sans-serif';
+  -webkit-font-smoothing: antialiased;
 }
