@@ -6,7 +6,7 @@ const Profile = () => (
     <div className="bio">
       <h3>Job</h3>
         <p>Web Developer</p>
-      <h3>Summary</h3>  
+      <h3>Summary</h3>
         <p>
           2015年 4月~：株式会社富士通マーケティング<br />
           2018年 4月~：株式会社Zeals<br />

@@ -29,5 +29,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/f-teruhisa/fukumoto_portfolio.git",
+  "author": "Teruhisa Fukumoto <teru_fukumoto@outlook.jp>",
+  "license": "MIT"
 }
