@@ -15,9 +15,13 @@
 .App-header {
   background-color: #444;
   border-bottom: 2px solid #fff;
-  height: 100px;
-  padding: 20px;
+  height: 210px;
   color: white;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%
 }
 
 .footer {
@@ -241,4 +245,9 @@ p, span, text {
   'ＭＳＰゴシック',
   'sans-serif';
   -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
