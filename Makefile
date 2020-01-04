@@ -10,6 +10,3 @@ up:
 
 yarn:
 	docker-compose run --rm web yarn install
-
-build:
-	docker-compose run web yarn build
