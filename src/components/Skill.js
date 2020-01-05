@@ -6,6 +6,7 @@ const Skill = () => (
     <ul>
       <li>Ruby(Rails)</li>
       <li>Python</li>
+      <li>Docker</li>
       <li>HTML</li>
       <li>CSS</li>
       <li>Git</li>
