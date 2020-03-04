@@ -7,6 +7,7 @@ const Skill = () => (
       <li>Ruby(Rails)</li>
       <li>Python</li>
       <li>Docker</li>
+      <li>Swift</li>
       <li>HTML</li>
       <li>CSS</li>
       <li>Git</li>
@@ -30,7 +31,7 @@ const Skill = () => (
       <li>Developer Relations</li>
       <li>Technical Recruiter</li>
       <li>Project Management</li>
-      <li>Human Resouces</li>
+      <li>Human Resources</li>
     </ul>
   </React.Fragment>
 );
