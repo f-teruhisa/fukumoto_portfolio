@@ -1,0 +1,34 @@
+[debug] [2020-03-27T13:24:18.413Z] ----------------------------------------------------------------------
+[debug] [2020-03-27T13:24:18.415Z] Command:       /usr/local/bin/node /Users/mbp010/.npm-global/bin/firebase functions:shell
+[debug] [2020-03-27T13:24:18.415Z] CLI Version:   7.16.1
+[debug] [2020-03-27T13:24:18.415Z] Platform:      darwin
+[debug] [2020-03-27T13:24:18.415Z] Node Version:  v12.13.1
+[debug] [2020-03-27T13:24:18.420Z] Time:          Fri Mar 27 2020 22:24:18 GMT+0900 (GMT+09:00)
+[debug] [2020-03-27T13:24:18.420Z] ----------------------------------------------------------------------
+[debug] [2020-03-27T13:24:18.420Z] 
+[debug] [2020-03-27T13:24:18.432Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-27T13:24:18.433Z] > authorizing via signed-in user
+[debug] [2020-03-27T13:24:18.433Z] [iam] checking project fukumoto-portfolio for permissions ["firebase.projects.get"]
+[debug] [2020-03-27T13:24:18.434Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-27T13:24:18.434Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-27T13:24:18.602Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-27T13:24:18.620Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fukumoto-portfolio:testIamPermissions  
+
+[debug] [2020-03-27T13:24:19.464Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[info] ✔  functions: functions emulator started at http://localhost:5000
+[debug] [2020-03-27T13:24:19.732Z] [functions] Watching "/Users/mbp010/projects/fukumoto_portfolio/functions" for Cloud Functions...
+[debug] [2020-03-27T13:24:19.740Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-27T13:24:19.740Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-27T13:24:19.740Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-27T13:24:19.740Z] DEBUG: [worker-~diagnostic~-82cc1ff7-bfc2-4c2e-8b94-b7b61dc846ad]: Assigning socketPath: /var/folders/tc/7q0wdjx91wq8rck8l3095bzm0000gp/T/fire_emu_12922.sock
+[debug] [2020-03-27T13:24:19.741Z] DEBUG: [worker-~diagnostic~-82cc1ff7-bfc2-4c2e-8b94-b7b61dc846ad]: BUSY
+[debug] [2020-03-27T13:24:19.910Z] DEBUG: [runtime-status] [12922] Functions runtime initialized. {"cwd":"/Users/mbp010/projects/fukumoto_portfolio/functions","node_version":"12.13.1"}
+[debug] [2020-03-27T13:24:19.910Z] DEBUG: [runtime-status] [12922] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-27T13:24:19.913Z] DEBUG: [runtime-status] [12922] Resolved module firebase-admin {"declared":true,"installed":true,"version":"7.0.0","resolution":"/Users/mbp010/projects/fukumoto_portfolio/functions/node_modules/firebase-admin/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[debug] [2020-03-27T13:24:19.913Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-27T13:24:19.930Z] DEBUG: [worker-~diagnostic~-82cc1ff7-bfc2-4c2e-8b94-b7b61dc846ad]: exited
+[debug] [2020-03-27T13:24:19.930Z] DEBUG: [worker-~diagnostic~-82cc1ff7-bfc2-4c2e-8b94-b7b61dc846ad]: FINISHED
