@@ -30,6 +30,7 @@ class ContactForm extends Component {
         const textFieldStyle = {
             display: "flex",
             width: "100%",
+            margin: "20px",
         }
 
         const contactForm = {
