@@ -143,13 +143,14 @@ a {
 
 body {
   font-family:
-          "Courier New",
-          Courier,
-          monospace,
-          Arial,
-          serif;
+          -apple-system,
+          BlinkMacSystemFont,
+          "Hiragino kaku Gothic ProN",
+          MyYuGothicM,
+          Meiryo,
+          sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: rgba(0,0,0,.87);
+  color: #161615;
 }
 
 h1 {
