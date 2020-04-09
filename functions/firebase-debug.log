@@ -32,3 +32,38 @@
 [debug] [2020-03-27T13:24:19.913Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
 [debug] [2020-03-27T13:24:19.930Z] DEBUG: [worker-~diagnostic~-82cc1ff7-bfc2-4c2e-8b94-b7b61dc846ad]: exited
 [debug] [2020-03-27T13:24:19.930Z] DEBUG: [worker-~diagnostic~-82cc1ff7-bfc2-4c2e-8b94-b7b61dc846ad]: FINISHED
+[debug] [2020-04-09T14:11:50.555Z] ----------------------------------------------------------------------
+[debug] [2020-04-09T14:11:50.556Z] Command:       /usr/local/bin/node /Users/mbp010/.npm-global/bin/firebase functions:shell
+[debug] [2020-04-09T14:11:50.557Z] CLI Version:   7.16.1
+[debug] [2020-04-09T14:11:50.557Z] Platform:      darwin
+[debug] [2020-04-09T14:11:50.557Z] Node Version:  v12.13.1
+[debug] [2020-04-09T14:11:50.557Z] Time:          Thu Apr 09 2020 23:11:50 GMT+0900 (GMT+09:00)
+[debug] [2020-04-09T14:11:50.557Z] ----------------------------------------------------------------------
+[debug] [2020-04-09T14:11:50.557Z] 
+[debug] [2020-04-09T14:11:50.568Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-09T14:11:50.568Z] > authorizing via signed-in user
+[debug] [2020-04-09T14:11:50.568Z] [iam] checking project fukumoto-portfolio for permissions ["firebase.projects.get"]
+[debug] [2020-04-09T14:11:50.569Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-09T14:11:50.570Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-09T14:11:50.758Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-09T14:11:50.776Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fukumoto-portfolio:testIamPermissions  
+
+[debug] [2020-04-09T14:11:51.537Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your functions directory does not specify a Node version.
+   - Learn more at https://firebase.google.com/docs/functions/manage-functions#set_runtime_options
+[info] ✔  functions: functions emulator started at http://localhost:5000
+[debug] [2020-04-09T14:11:51.797Z] [functions] Watching "/Users/mbp010/projects/fukumoto_portfolio/functions" for Cloud Functions...
+[debug] [2020-04-09T14:11:51.804Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-04-09T14:11:51.804Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-04-09T14:11:51.804Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-04-09T14:11:51.804Z] DEBUG: [worker-~diagnostic~-7415fb92-ae86-4923-9a70-278a2d6a037d]: Assigning socketPath: /var/folders/tc/7q0wdjx91wq8rck8l3095bzm0000gp/T/fire_emu_15541.sock
+[debug] [2020-04-09T14:11:51.805Z] DEBUG: [worker-~diagnostic~-7415fb92-ae86-4923-9a70-278a2d6a037d]: BUSY
+[debug] [2020-04-09T14:11:51.980Z] DEBUG: [runtime-status] [15541] Functions runtime initialized. {"cwd":"/Users/mbp010/projects/fukumoto_portfolio/functions","node_version":"12.13.1"}
+[debug] [2020-04-09T14:11:51.981Z] DEBUG: [runtime-status] [15541] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-04-09T14:11:51.983Z] DEBUG: [runtime-status] [15541] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/mbp010/projects/fukumoto_portfolio/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-04-09T14:11:51.983Z] DEBUG: [runtime-status] [15541] Resolved module firebase-functions {"declared":true,"installed":true,"version":"2.3.1","resolution":"/Users/mbp010/projects/fukumoto_portfolio/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-functions" to be version >3.0.0 so your version is too old. You can probably fix this by running "npm install firebase-functions@latest" in your functions directory.
+[debug] [2020-04-09T14:11:51.984Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-04-09T14:11:52.000Z] DEBUG: [worker-~diagnostic~-7415fb92-ae86-4923-9a70-278a2d6a037d]: exited
+[debug] [2020-04-09T14:11:52.000Z] DEBUG: [worker-~diagnostic~-7415fb92-ae86-4923-9a70-278a2d6a037d]: FINISHED
